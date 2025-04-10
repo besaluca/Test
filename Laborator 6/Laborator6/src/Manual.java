@@ -1,4 +1,10 @@
-package PACKAGE_NAME;
+public class Manual extends Rechizita {
 
-public class Manual {
+    public Manual(String eticheta) {
+        super(eticheta);
+    }
+
+    public String getNume() {
+        return "Manual: " + eticheta;
+    }
 }

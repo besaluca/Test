@@ -1,4 +1,10 @@
-package PACKAGE_NAME;
+public class Caiet extends Rechizita {
 
-public class Caiet {
+    public Caiet(String eticheta) {
+        super(eticheta);
+    }
+
+    public String getNume() {
+        return "Caiet: " + eticheta;
+    }
 }
